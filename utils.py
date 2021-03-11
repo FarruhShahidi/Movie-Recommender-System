@@ -96,7 +96,7 @@ def drop_Genres_and_rename_Title(df):
     df.drop(columns=['Genre'], axis=1, inplace=True)
     return df
 def combine_cols(df):
-    df['all_cast'] = df['actor_1_name'] + ' ' + df['actor_2_name'] + ' ' + df[
+    df['comb'] = df['actor_1_name'] + ' ' + df['actor_2_name'] + ' ' + df[
         'actor_3_name'] + ' ' + df['director_name'] + ' ' + df['genres']
 def replace_nans(df):
     for col in df:
