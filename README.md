@@ -7,7 +7,7 @@ The project consists of the following steps.
 #1. Data collection.
 
 
-The movies up to 2017 was taken from [here] (https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset) and [here](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=credits.csv).
+The movies up to 2017 was taken from [here](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset) and [here](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=credits.csv).
 For the years from 2018 to 2020 I used the wikipedia page for the American movies and used the [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to scrape the tables. Click [this](https://en.wikipedia.org/wiki/List_of_American_films_of_2020) for the 2020 movies. Some additional data like genres was then obtained with the help of [TMDb API](https://developers.themoviedb.org/3).
 
 
