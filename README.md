@@ -12,6 +12,8 @@ For the years from 2018 to 2020 I used the wikipedia page for the American movie
 
 
 #2. Model and prediction.
+
+
 To classify the reviews for the movies I used TF-IDF and the Random Forest Classifier which gave a 98.8\% accuracy.
 
 To recommend the top 10 movies, I used a simple, yet very powerful cosine similarity algorithm.
